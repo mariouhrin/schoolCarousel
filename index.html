@@ -25,7 +25,7 @@
         </div>
     </div>
 
-    <div id="slideshow">
+    <div id="slideshow" style="display: none">
         <div>
             <img src="./images/obr1.jpg">
         </div>
@@ -59,8 +59,9 @@
     <script src="js/index.js"></script>
 
     <script type="text/javascript">
-    window.onload = function()
-      { document.getElementsByTagName("body").style.display = "none"; }
+    $(document).ready(function() {
+        $('#slideshow').show();
+    });
     </script>
 
 </body>
