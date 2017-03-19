@@ -8,6 +8,3 @@ setInterval(function() {
     .end()
     .appendTo('#slideshow');
 }, 4000);
-
-var nadpisHeight = document.getElementsByClassName("nadpis")[0].clientHeight;
-var bodyHeight = document.getElementsByTagName("body")[0].clientHeight;
