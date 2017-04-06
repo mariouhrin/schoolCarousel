@@ -48,21 +48,36 @@ div img {
     border-radius: 2vw;
 }
 
-
-.maly-nadpis {
+.small-descriptions {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
     height: 10vh;
+    top: 90vh !important;
+    position: absolute;
+    font-size: 1.1vw;
+    width: 100% !important;
+}
+
+.dane-desc {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: absolute !important;
-    padding-left: 12.5% !important;
-    text-align: left !important;
-    font-size: 1.2vw;
-    position: absolute;
-    top: 90vh !important;
-    text-align: left !important;
-    margin: 0 !important;
     font-weight: bold;
+    position: relative !important;
+    margin: 0 !important;
+}
+
+.design-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    position: relative !important;
+    margin: 0 !important;
+
 }
 
 .descriptions {
