@@ -1,3 +1,5 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/anon/pen/QpaOma.
+Carousel presentation of elementary school from Slovakia.
+
+You can see it here https://zsnobel.netlify.com/
 
  
